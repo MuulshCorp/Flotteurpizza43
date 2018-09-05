@@ -10,5 +10,8 @@
     "yourself, discord, bot"
   ],
   "author": "Muulsh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
 }
