@@ -1,0 +1,14 @@
+{
+  "name": "yourself",
+  "version": "1.0.0",
+  "description": "yourselfbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yourself, discord, bot"
+  ],
+  "author": "Muulsh",
+  "license": "MIT"
+}
