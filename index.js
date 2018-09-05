@@ -14,7 +14,8 @@ function date() {
 
 client.on("ready", () => {
   client.user.setActivity(`${client.user.tag} est sur ${client.guilds.size} serveurs`);
-  client.channels.get('486907940930846721').send(`Le bot est pret ! \n ${client.users.size} utilisateurs \n ${client.channels.size} salons \n ${client.guilds.size} serveurs \n ${date()}`);
+  var channel = client.channels.get('486907940930846721');
+  channel.send(`Le bot est pret ! \n ${client.users.size} utilisateurs \n ${client.channels.size} salons \n ${client.guilds.size} serveurs \n ${date()}`);
 });
 
 client.login(process.env.TOKEN);
